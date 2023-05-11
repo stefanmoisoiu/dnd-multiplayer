@@ -104,3 +104,10 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 162772
+  packageName: ALINE
+  packageVersion: 1.6.4
+  assetPath: Assets/ALINE/Resources/aline_font.png
+  uploadId: 527145

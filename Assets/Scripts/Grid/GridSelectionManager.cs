@@ -1,13 +1,7 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 public class GridSelectionManager : MonoBehaviour
 {
-    public static GameObject selectedGridGameObject;
     public static IGridObject selectedGridObject;
     [SerializeField] private LayerMask gridLayer,groundLayer;
     

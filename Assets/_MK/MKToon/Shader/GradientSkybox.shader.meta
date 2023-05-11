@@ -8,3 +8,10 @@ ShaderImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 178415
+  packageName: MK Toon - Stylized Shader
+  packageVersion: 3.0.20
+  assetPath: Assets/_MK/MKToon/Shader/GradientSkybox.shader
+  uploadId: 575626
