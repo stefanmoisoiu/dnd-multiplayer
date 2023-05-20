@@ -6,7 +6,6 @@ using UnityEngine.Serialization;
 
 public class KeepRectInCanvas : MonoBehaviour
 {
-    [SerializeField] private RectTransform _canvasRect;
     
     private RectTransform _rectTransform;
 
@@ -17,17 +16,20 @@ public class KeepRectInCanvas : MonoBehaviour
 
     private void Update()
     {
-        Vector2 worldPosition =
-            _canvasRect.InverseTransformPoint(transform.parent.TransformPoint(_rectTransform.anchoredPosition));
-        worldPosition = new Vector2
-        (
-            Mathf.Clamp(worldPosition.x,
-                (-_canvasRect.rect.width + _rectTransform.rect.width)/2,
-                (_canvasRect.rect.width - _rectTransform.rect.width)/2),
-            Mathf.Clamp(worldPosition.y, 
-                (-_canvasRect.rect.height + _rectTransform.rect.height)/2,
-                (_canvasRect.rect.height - _rectTransform.rect.height)/2)
-        );
-        _rectTransform.anchoredPosition = transform.parent.InverseTransformPoint(_canvasRect.TransformPoint(worldPosition));
+        Transform parent = _rectTransform.parent;
+        Rect canvasRect = MainCanvasManager.MainCanvasRect.rect;
+        
+        Vector2 worldPosition = MainCanvasManager.LocalToCanvasPos(_rectTransform.anchoredPosition,parent);
+        
+        worldPosition.x = Mathf.Clamp(worldPosition.x,
+            (-canvasRect.width + _rectTransform.rect.width) / 2,
+            (canvasRect.width - _rectTransform.rect.width) / 2);
+        worldPosition.y = Mathf.Clamp(worldPosition.y,
+            (-canvasRect.height + _rectTransform.rect.height) / 2,
+            (canvasRect.height - _rectTransform.rect.height) / 2);
+
+        Vector2 localPosition = MainCanvasManager.CanvasToLocalPos(worldPosition, parent);
+
+        _rectTransform.anchoredPosition = localPosition;
     }
 }

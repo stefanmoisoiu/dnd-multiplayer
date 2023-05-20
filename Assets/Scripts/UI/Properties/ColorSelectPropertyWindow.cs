@@ -1,29 +1,20 @@
-using Sirenix.OdinInspector;
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class ColorSelectPropertyWindow : SelectPropertyWindow
 {
+        private RectTransform _rectTransform;
         public delegate void ColorCallback(Color selectedColor);
 
-        [Button("Setup Test")]
-        private void SetupTest()
+        private void Start()
         {
-                Setup(new []
-                {
-                        Color.red,Color.blue, Color.green,
-                        Color.red,Color.blue, Color.green,
-                        Color.red,Color.blue, Color.green,
-                        Color.red,Color.blue, Color.green,
-                        Color.red,Color.blue, Color.green,
-                        Color.red,Color.blue, Color.green,
-                        Color.red,Color.blue, Color.green,
-                        Color.red,Color.blue, Color.green
-                },delegate(Color color) { print(color);  });
+                _rectTransform = GetComponent<RectTransform>();
         }
-        
+
         public void Setup(Color[] colorOptions,ColorCallback callback)
         {
+                _rectTransform.anchoredPosition = new Vector2(_rectTransform.rect.size.x, -_rectTransform.rect.size.y) / 2;
                 base.Reset();
                 foreach (var colorOption in colorOptions)
                 {

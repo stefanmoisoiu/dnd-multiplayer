@@ -5,27 +5,482 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5343959-ed94-40e0-9a82-02d482aa330d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Properties/ColorSelectPropertyWindow.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Properties/ColorSelectPropertyWindow.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Grid/MoveObjectManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DnD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DnD/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Table/Coin/Coin Color 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Table/Coin/Coin Color 1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Table/Coin/Coin Color 2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Table/Coin/Coin Color 2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Coin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Coin.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Coin.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Coin.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/BG Boards/Forest.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/BG Boards/Forest/Ground Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/BG Boards/Forest/Ground Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Table/Board/Board Base.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Table/Board/Board Base.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Readme.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Readme.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Customization.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Properties.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CustomizationOption.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CustomizationOption.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CustomizationSlot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CustomizationSlot.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Slider Property.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Slider Property.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SliderProperty.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SliderProperty.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity-Renderer.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity-Renderer.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/MKToonConfiguration.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/MKToonConfiguration.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Billboard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Billboard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Grid/Grid.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Grid/Grid.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Grid/GridObject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Grid/GridObject.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Grid/GridSelectionManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Grid/GridSelectionManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Grid/MoveObjectManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Grid/MoveGridObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Grid/MoveObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Grid/MoveGridObject.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Grid/MoveObject.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/KeepRectInCanvas.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/KeepRectInCanvas.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Properties/ColorSelectPropertyWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Properties/ColorSelectPropertyWindow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/SampleSceneProfile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Balanced.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-Balanced.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-Performant.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-Performant.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Dice illustrations.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Dice illustrations.ai.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Dice illustrations.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Dice illustrations.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Refresh Icon.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Refresh Icon.ai.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Refresh Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Refresh Icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons/URP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Icons/URP.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Layout.wlt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Layout.wlt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Readme.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Readme.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UI/Base Select Option.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UI/Base Select Option.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKMeshUtility.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKMeshUtility/MK.MeshUtility.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKMeshUtility/MK.MeshUtility.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKMeshUtility/MKMeshUtility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKMeshUtility/MKMeshUtility.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKRampCreator.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKRampCreator/MK.RampCreator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKRampCreator/MK.RampCreator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKRampCreator/MKRampCreator.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKRampCreator/MKRampCreator.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKTextureChannelPacker.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKTextureChannelPacker/MK.MKTextureChannelPacker.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKTextureChannelPacker/MK.MKTextureChannelPacker.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKTextureChannelPacker/MKTextureChannelPacker.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKTextureChannelPacker/MKTextureChannelPacker.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Dissolve.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Dissolve/DissolveChessboard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Dissolve/DissolveChessboard.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Dissolve/DissolveClouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Dissolve/DissolveClouds.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Dissolve/DissolveFibers.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Dissolve/DissolveFibers.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Dissolve/DissolveNoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Dissolve/DissolveNoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/DissolveBorder.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/DissolveBorder/BBW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/DissolveBorder/BBW.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/DissolveBorder/BOY.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/DissolveBorder/BOY.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/DissolveBorder/BPOY.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/DissolveBorder/BPOY.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Drawn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Drawn/HalftoneChessboard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Drawn/HalftoneChessboard.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Drawn/HalftoneCircle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Drawn/HalftoneCircle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Drawn/HalftoneCross.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Drawn/HalftoneCross.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Drawn/HalftoneDiagonalLine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Drawn/HalftoneDiagonalLine.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Drawn/HalftoneDot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Drawn/HalftoneDot.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Drawn/HalftoneGrid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Drawn/HalftoneGrid.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Drawn/HalftoneHorizontalLine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Drawn/HalftoneHorizontalLine.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Drawn/HalftonePentagon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Drawn/HalftonePentagon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Drawn/HalftoneQuad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Drawn/HalftoneQuad.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Drawn/HalftoneRhombus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Drawn/HalftoneRhombus.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Drawn/HalftoneStar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Drawn/HalftoneStar.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Drawn/HalftoneTrefoil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Drawn/HalftoneTrefoil.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Drawn/HalftoneTriangle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Drawn/HalftoneTriangle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Drawn/HalftoneVerticalLine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Drawn/HalftoneVerticalLine.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Dudv.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Dudv/DudvClouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Dudv/DudvClouds.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Dudv/DudvNoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Dudv/DudvNoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Dudv/DudvSmooth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Dudv/DudvSmooth.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/GoochRamp1D.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/GoochRamp1D/BBO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/GoochRamp1D/BBO.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/GoochRamp1D/OOYY.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/GoochRamp1D/OOYY.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/GoochRamp1D/PY.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/GoochRamp1D/PY.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/GoochRamp2D.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/GoochRamp2D/BBO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/GoochRamp2D/BBO.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/GoochRamp2D/PY.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/GoochRamp2D/PY.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/GoochRamp2D/RRYY.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/GoochRamp2D/RRYY.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Hatching.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Hatching/HatchingCharcoalBright.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Hatching/HatchingCharcoalBright.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Hatching/HatchingCharcoalDark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Hatching/HatchingCharcoalDark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Hatching/HatchingCleanBright.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Hatching/HatchingCleanBright.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Hatching/HatchingCleanDark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Hatching/HatchingCleanDark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Hatching/HatchingCrossBright.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Hatching/HatchingCrossBright.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Hatching/HatchingCrossDark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Hatching/HatchingCrossDark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Hatching/HatchingPencilDiagonalBright.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Hatching/HatchingPencilDiagonalBright.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Hatching/HatchingPencilDiagonalDark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Hatching/HatchingPencilDiagonalDark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Hatching/HatchingPencilLineBright.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Hatching/HatchingPencilLineBright.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Hatching/HatchingPencilLineDark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Hatching/HatchingPencilLineDark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Hatching/HatchingScribbleBright.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Hatching/HatchingScribbleBright.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Hatching/HatchingScribbleDark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Hatching/HatchingScribbleDark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Hatching/HatchingWatercolorBright.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Hatching/HatchingWatercolorBright.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Hatching/HatchingWatercolorDark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Hatching/HatchingWatercolorDark.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Iridescence.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Iridescence/BPRO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Iridescence/BPRO.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Iridescence/BRGY.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Iridescence/BRGY.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Iridescence/CMOY.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Iridescence/CMOY.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Iridescence/RGB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Iridescence/RGB.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Iridescence/Rainbow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Iridescence/Rainbow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Iridescence/WCMY.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Iridescence/WCMY.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp1D.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp1D/10Step.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp1D/10Step.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp1D/2Step.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp1D/2Step.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp1D/2StepQuarter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp1D/2StepQuarter.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp1D/2StepThird.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp1D/2StepThird.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp1D/3Step.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp1D/3Step.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp1D/3StepSmooth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp1D/3StepSmooth.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp1D/4Step.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp1D/4Step.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp1D/5Step.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp1D/5Step.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp1D/6Step.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp1D/6Step.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp1D/7Step.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp1D/7Step.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp1D/8Step.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp1D/8Step.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp1D/9Step.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp1D/9Step.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp1D/Smooth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp1D/Smooth.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp2D.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp2D/2Step.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp2D/2Step.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp2D/2StepLerp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp2D/2StepLerp.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp2D/2StepQuarter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp2D/2StepQuarter.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp2D/2StepThird.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp2D/2StepThird.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp2D/2StepsSmooth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp2D/2StepsSmooth.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp2D/3Step.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp2D/3Step.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp2D/3StepCircular.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp2D/3StepCircular.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp2D/4Step.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp2D/4Step.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp2D/4StepCircular.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp2D/4StepCircular.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp2D/5Step.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp2D/5Step.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp2D/5StepCircular.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/LightRamp2D/5StepCircular.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Sketch.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Sketch/SketchDiagonalLineT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Sketch/SketchDiagonalLineT.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Sketch/SketchHorizontalLine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Sketch/SketchHorizontalLine.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Sketch/SketchScribble.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Sketch/SketchScribble.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Sketch/SketchScribbleCross.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Sketch/SketchScribbleCross.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Sketch/SketchScribbleTriT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Sketch/SketchScribbleTriT.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Sketch/SketchStroke.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Sketch/SketchStroke.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Sketch/SketchStrokeCross.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Sketch/SketchStrokeCross.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Sketch/SketchStrokeTri.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Sketch/SketchStrokeTri.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Sketch/SketchThin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Sketch/SketchThin.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Sketch/SketchThinCross.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Sketch/SketchThinCross.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Sketch/SketchThinTri.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Sketch/SketchThinTri.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Sketch/SketchVerticalLine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Sketch/SketchVerticalLine.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Sketch/SketchWovened.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Sketch/SketchWovened.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Threshold.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Threshold/ThresholdAquarelle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Threshold/ThresholdAquarelle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Threshold/ThresholdClouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Threshold/ThresholdClouds.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Threshold/ThresholdCloudsSoft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Threshold/ThresholdCloudsSoft.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Threshold/ThresholdNoise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Threshold/ThresholdNoise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Threshold/ThresholdPastel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Threshold/ThresholdPastel.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Threshold/ThresholdWatercolor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Builtin/Threshold/ThresholdWatercolor.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/Base.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/Base/FeatureComponents.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/Base/FeatureComponents/OutlineComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/Base/FeatureComponents/OutlineComponent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/Base/FeatureComponents/ParticlesComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/Base/FeatureComponents/ParticlesComponent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/Base/FeatureComponents/RefractionComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/Base/FeatureComponents/RefractionComponent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/Base/PhysicallyBasedEditorBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/Base/PhysicallyBasedEditorBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/Base/SimpleEditorBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/Base/SimpleEditorBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/Base/UnlitEditorBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/Base/UnlitEditorBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/CardImage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/CardImage.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/Common.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/Common.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/Configuration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/Configuration.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/GlobalShaderFeature.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/GlobalShaderFeature.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/Helper.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/Helper/EditorHelper.EditorStyles.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/Helper/EditorHelper.EditorStyles.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/Helper/EditorHelper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/Helper/EditorHelper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/Helper/MKToonColorHDRRGBDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/Helper/MKToonColorHDRRGBDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/Helper/MKToonColorRGBDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/Helper/MKToonColorRGBDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/Helper/MKToonFloatABSDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/Helper/MKToonFloatABSDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/Helper/MKToonIntSliderDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/Helper/MKToonIntSliderDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/Helper/MKToonIntVector3Drawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/Helper/MKToonIntVector3Drawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/Helper/MaterialPropertyDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/Helper/MaterialPropertyDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/InstallWizard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/InstallWizard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/MK.Toon.Editor.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/MK.Toon.Editor.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/MKToonConfiguration.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/MKToonConfiguration.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/MaterialUpgrader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/MaterialUpgrader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/Properties.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/Properties.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/UI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/UI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/URP.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/URP/Particles.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/URP/Particles/ParticlesPBSEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/URP/Particles/ParticlesPBSEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/URP/Particles/ParticlesSimpleEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/URP/Particles/ParticlesSimpleEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/URP/Particles/ParticlesUnlitEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/URP/Particles/ParticlesUnlitEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/URP/Standard.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/URP/Standard/StandardPBSEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/URP/Standard/StandardPBSEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/URP/Standard/StandardSimpleEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/URP/Standard/StandardSimpleEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/URP/Standard/StandardUnlitEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Editor/URP/Standard/StandardUnlitEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/ExamplesBuiltin.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/ExamplesInc.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/ExamplesURP.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/MK.Toon.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/MK.Toon.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/ReadMe.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/ReadMe.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Scripts/Common.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Scripts/Common.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Scripts/Keywords.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Scripts/Keywords.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Scripts/Properties.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Scripts/Properties.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Scripts/Property.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Scripts/Property.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Scripts/Uniform.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Scripts/Uniform.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Scripts/Uniforms.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Scripts/Uniforms.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/GradientSkybox.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/GradientSkybox.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Common.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Common.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Composite.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Composite.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Config.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Config.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Core.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Core.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/DepthNormals.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/DepthNormals/Data.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/DepthNormals/Data.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/DepthNormals/ProgramDepthNormals.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/DepthNormals/ProgramDepthNormals.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/DepthNormals/Setup.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/DepthNormals/Setup.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/DepthOnly.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/DepthOnly/Data.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/DepthOnly/Data.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/DepthOnly/ProgramDepthOnly.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/DepthOnly/ProgramDepthOnly.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/DepthOnly/Setup.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/DepthOnly/Setup.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/DotsInstancingSetup.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/DotsInstancingSetup.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Forward.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Forward/AddSetup.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Forward/AddSetup.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Forward/BaseSetup.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Forward/BaseSetup.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Forward/Data.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Forward/Data.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Forward/ProgramForward.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Forward/ProgramForward.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/GlobalShaderFeatures.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/GlobalShaderFeatures.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Lighting.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Lighting.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Meta.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Meta/Common.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Meta/Common.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Meta/Data.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Meta/Data.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Meta/ProgramMeta.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Meta/ProgramMeta.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Meta/Setup.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Meta/Setup.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/MotionVectors.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/MotionVectors/Data.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/MotionVectors/Data.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/MotionVectors/ProgramMotionVectors.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/MotionVectors/ProgramMotionVectors.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/MotionVectors/Setup.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/MotionVectors/Setup.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Outline.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Outline/Data.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Outline/Data.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Outline/ProgramOutline.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Outline/ProgramOutline.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Outline/Setup.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Outline/Setup.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Pipeline.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Pipeline.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/RenderersSetup.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/RenderersSetup.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/ShadowCaster.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/ShadowCaster/Data.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/ShadowCaster/Data.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/ShadowCaster/ProgramShadowCaster.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/ShadowCaster/ProgramShadowCaster.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/ShadowCaster/Setup.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/ShadowCaster/Setup.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Surface.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Surface.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Uniform.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Uniform.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Universal2D.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Universal2D/Data.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Universal2D/Data.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Universal2D/ProgramUniversal2D.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Universal2D/ProgramUniversal2D.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Universal2D/Setup.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/Lib/Universal2D/Setup.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/URP.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/URP/Particles.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/URP/Particles/ParticlesPBS.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/URP/Particles/ParticlesPBS.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/URP/Particles/ParticlesPBSRefraction.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/URP/Particles/ParticlesPBSRefraction.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/URP/Particles/ParticlesSimple.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/URP/Particles/ParticlesSimple.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/URP/Particles/ParticlesSimpleRefraction.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/URP/Particles/ParticlesSimpleRefraction.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/URP/Particles/ParticlesUnlit.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/URP/Particles/ParticlesUnlit.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/URP/Particles/ParticlesUnlitRefraction.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/URP/Particles/ParticlesUnlitRefraction.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/URP/Standard.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/URP/Standard/StandardPBS.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/URP/Standard/StandardPBS.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/URP/Standard/StandardPBSOutline.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/URP/Standard/StandardPBSOutline.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/URP/Standard/StandardPBSRefraction.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/URP/Standard/StandardPBSRefraction.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/URP/Standard/StandardSimple.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/URP/Standard/StandardSimple.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/URP/Standard/StandardSimpleOutline.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/URP/Standard/StandardSimpleOutline.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/URP/Standard/StandardSimpleRefraction.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/URP/Standard/StandardSimpleRefraction.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/URP/Standard/StandardUnlit.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/URP/Standard/StandardUnlit.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/URP/Standard/StandardUnlitOutline.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/URP/Standard/StandardUnlitOutline.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/URP/Standard/StandardUnlitRefraction.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/Shader/URP/Standard/StandardUnlitRefraction.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/ShadersBuiltIn.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_MK/MKToon/ShadersURP.unitypackage.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,13 +489,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/911417f322e74570ac11c0f491efd7e22000/c3/8e091ec1/02000002pdb3High.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/911417f322e74570ac11c0f491efd7e22000/c3/8e091ec1/02000002pdb3Low.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Billboard.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/86acb61e0d2b4b36bc20af11093be9a5157e00/7d/eec343a5/Quaternion.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controls/InputManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Grid/Grid.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Grid/GridSelectionManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Grid/MoveGridObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/KeepRectInCanvas.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Properties/TextProperty.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_InputField.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Slider.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -51,30 +505,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Discover.Launch.Via.Unity": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\ilog\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\ilog\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\ilog\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\ilog\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\ilog\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\ilog\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2023.1.0b15\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\ilog\DnD -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\ilog\DnD" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -82,7 +537,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2023.1.0b15\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\ilog\DnD -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\ilog\DnD" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -138,6 +593,11 @@
       <workItem from="1683824763282" duration="3464000" />
       <workItem from="1683836077702" duration="375000" />
       <workItem from="1683836682567" duration="3644000" />
+      <workItem from="1683886075228" duration="2203000" />
+      <workItem from="1684157019019" duration="932000" />
+      <workItem from="1684323980729" duration="2223000" />
+      <workItem from="1684436747112" duration="4948000" />
+      <workItem from="1684570536771" duration="15175000" />
     </task>
     <servers />
   </component>
@@ -146,6 +606,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
